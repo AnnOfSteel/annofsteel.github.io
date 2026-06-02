@@ -13,7 +13,7 @@ var bgTween2 = new TweenMax.to('body', 0.5, {
     });
 
 // Logo images
-var imagesLogo = ["http://superann.local/wp-content/uploads/logo.svg", "http://superann.local/wp-content/uploads/logo-2.svg", "http://superann.local/wp-content/uploads/logo-3.svg"];
+var imagesLogo = ["https://annofsteel.github.io/wp-content/uploads/logo.svg", "https://annofsteel.github.io/wp-content/uploads/logo-2.svg", "https://annofsteel.github.io/wp-content/uploads/logo-3.svg"];
 
 // Cycle through the array
 var objLogo = {curImg: 0};
@@ -33,7 +33,7 @@ $("#logo img").attr("src", imagesLogo[objLogo.curImg]); // set the image source
 );
 
 // Hand images
-var imagesHand = ["http://superann.local/wp-content/uploads/hand-laser.svg", "http://superann.local/wp-content/uploads/hand-laser-2.svg"];
+var imagesHand = ["https://annofsteel.github.io/wp-content/uploads/hand-laser.svg", "https://annofsteel.github.io/wp-content/uploads/hand-laser-2.svg"];
 
 // Cycle through the array
 var objHand = {curImg: 0};
@@ -54,7 +54,7 @@ $("#hand img").attr("src", imagesHand[objHand.curImg]); // set the image source
 
 
 // Phung images
-var imagesPhung = ["http://superann.local/wp-content/uploads/phung-hero-2.svg", "http://superann.local/wp-content/uploads/phung-hero.svg"];
+var imagesPhung = ["https://annofsteel.github.io/wp-content/uploads/phung-hero-2.svg", "https://annofsteel.github.io/wp-content/uploads/phung-hero.svg"];
 
 // Cycle through the array
 var objPhung = {curImg: 0};
